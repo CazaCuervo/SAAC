@@ -1,0 +1,85 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px; /* Altura de la barra de navegación */
+  background: #1488CC;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formu {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 3px;
+  font-size: 16px;
+  border-radius: 35px;
+  color: #ffffff;
+}
+
+footer {
+  background: transparent;
+  backdrop-filter: blur(1px);
+}
+
+.footer-icon {
+  color: #ffffff;
+  font-size: 34px;
+  margin-right: 10px;
+}
+
+.icono-texto {
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  transition: transform 0.3s ease;
+  padding: 2px;
+  font-size: 40px;
+}
+
+.icono-texto:hover {
+  transform: scale(1.3);
+  color: rgb(60, 57, 158);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+ul:hover a {
+  color: #242529;
+}
+ul:hover a:hover {
+  color: rgb(41, 72, 192);
+  box-shadow: 0 2px 0 0 currentColor;
+}
+.logo img {
+  height: 30px;
+  width: auto;
+}
+p{
+  align-items: flex-end;
+}
+
